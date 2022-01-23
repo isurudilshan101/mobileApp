@@ -14,7 +14,7 @@ export default function App() {
 
   
       
-      {/* <Text>isuru Dilshan</Text>   */}
+       
    
 
        <StatusBar style="auto" />

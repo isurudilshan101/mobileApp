@@ -12,6 +12,8 @@ const Signin = () => {
   return (
     <View>
       <AppBar title={title} />
+
+      
       <Input placeholder="Enter Your Email" />
 
       {/* <Input
