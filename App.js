@@ -1,28 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import  AppBar from './component/appBar.js';
-import Signin from './screen/signIn/signin';
-
-
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import AppBar from "./component/appBar.js";
+// import Signin from './screen/signIn/signin';
+//import SignupStudent from "./screen/signUp/signup-student";
+import SignupStaff from "./screen/signUp/signup-staff";
 
 export default function App() {
   return (
-
-
     <View>
+      <StatusBar style="auto" />
 
-  
-      
-       
-   
-
-       <StatusBar style="auto" />
-
-      
-       <Signin/>
+      {/* <Signin/> */}
+      {/* <SignupStudent /> */}
+        <SignupStaff/>
     </View>
-    
   );
 }
 
