@@ -5,8 +5,9 @@ import AppBar from "./component/appBar.js";
 // import Signin from './screen/signIn/signin';
 //import SignupStudent from "./screen/signUp/signup-student";
 //import SignupStaff from "./screen/signUp/signup-staff";
-import ResetPassword from "./screen/resetPassword/resetPassword.js";
-
+//import ResetPassword from "./screen/resetPassword/resetPassword.js";
+//import AboutUs from "./screen/aboutUs/aboutUs";
+import Setting from "./screen/setting/setting";
 
 export default function App() {
   return (
@@ -16,7 +17,9 @@ export default function App() {
       {/* <Signin/> */}
       {/* <SignupStudent /> */}
         {/* <SignupStaff/> */}
-        <ResetPassword/>
+        {/* <ResetPassword/> */}
+        {/* <AboutUs/> */}
+        <Setting/>
     </View>
   );
 }
