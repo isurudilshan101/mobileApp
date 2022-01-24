@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 import AppBar from "./component/appBar.js";
 // import Signin from './screen/signIn/signin';
 //import SignupStudent from "./screen/signUp/signup-student";
-import SignupStaff from "./screen/signUp/signup-staff";
+//import SignupStaff from "./screen/signUp/signup-staff";
+import ResetPassword from "./screen/resetPassword/resetPassword.js";
+
 
 export default function App() {
   return (
@@ -13,7 +15,8 @@ export default function App() {
 
       {/* <Signin/> */}
       {/* <SignupStudent /> */}
-        <SignupStaff/>
+        {/* <SignupStaff/> */}
+        <ResetPassword/>
     </View>
   );
 }
